@@ -82,6 +82,9 @@
 .projects__item {
   background-color: $backgroundColor;
   display: flex;
+    @include mq(tab) {
+    width: 354px;
+  }
 }
 
 .projects__link {
